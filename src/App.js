@@ -37,7 +37,7 @@ function App() {
   const [listavlasnika, setListaVlasnika] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(5);
+  const [postsPerPage] = useState(30);
 
   useEffect(() => {
     const fetchPosts = async () => {
